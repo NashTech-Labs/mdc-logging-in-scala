@@ -6,7 +6,7 @@
 
 In this template, I have demonstrated both the cases i.e. `MdcAcrossSingleThread` and `MdcAcrossMultipleThreadsOrFutures`. Run these example apps and analyze the logs to get a better idea about MDC logging.
 
-`MdcExecutionContext` is the custom ExecutionContext that we have created to propagate MDC across any new thread.
+`MdcExecutionContext` is the custom ExecutionContext that i have created to propagate MDC across any new thread.
 
 ## Prerequisites
 
