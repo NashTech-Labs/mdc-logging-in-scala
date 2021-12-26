@@ -6,7 +6,7 @@
 
 In this template, I have demonstrated both the cases i.e. [MdcAcrossSingleThread](src/main/scala/examples/MdcAcrossSingleThread.scala) and [MdcAcrossMultipleThreadsOrFutures](src/main/scala/examples/MdcAcrossMultipleThreadsOrFutures.scala). Run these example apps and analyze the logs to get a better idea about MDC logging.
 
-`MdcExecutionContext` is the custom ExecutionContext that i have created to propagate MDC across any new thread.
+[MdcExecutionContext](src/main/scala/mdc/MdcExecutionContext.scala) is the custom ExecutionContext that i have created to propagate MDC across any new thread.
 
 ## Prerequisites
 
